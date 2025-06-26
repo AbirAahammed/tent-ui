@@ -1,0 +1,19 @@
+import { AppState } from "./AppState";
+
+export type AppAction = {
+    type: AppActionType,
+    payload?: any
+}
+
+
+
+export enum AppActionType {
+    SHOW_NOTIFICATION = 'SHOW_NOTIFICATION',
+    CLEAR_NOTIFICATION = 'CLEAR_NOTIFICATION',
+    SHOW_LOADING = 'SHOW_LOADING',
+    HIDE_LOADING = 'HIDE_LOADING',
+    SHOW_CONFIRMATION_DIALOG = 'SHOW_CONFIRMATION_DIALOG',
+    CLOSE_CONFIRMATION_DIALOG = 'CLOSE_CONFIRMATION_DIALOG',
+    OPEN_DRAWER = 'OPEN_DRAWER',
+    CLOSE_DRAWER = 'CLOSE_DRAWER'
+}
