@@ -3,4 +3,6 @@
 ---
 
 © 2025 Abir Ahammed. All rights reserved.  
-[![Node.js CI](https://github.com/AbirAahammed/tent-ui/actions/workflows/node-build.yml/badge.svg)](https://github.com/AbirAahammed/tent-ui/actions/workflows/node-build.yml)
+[![Node Build](https://github.com/AbirAahammed/tent-ui/actions/workflows/node-build.yml/badge.svg)](https://github.com/AbirAahammed/tent-ui/actions/workflows/node-build.yml)
+
+[![App Publish](https://github.com/AbirAahammed/tent-ui/actions/workflows/npm-publish-github-packages.yml/badge.svg)](https://github.com/AbirAahammed/tent-ui/actions/workflows/npm-publish-github-packages.yml)
