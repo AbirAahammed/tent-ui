@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'ubuntu' // Or any agent where Node.js is installed
+        label 'headvy-01' // Or any agent where Node.js is installed
     }
 
     environment {
