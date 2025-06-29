@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'headvy-01' // Or any agent where Node.js is installed
+        label 'heavy-01' // Or any agent where Node.js is installed
     }
 
     environment {
