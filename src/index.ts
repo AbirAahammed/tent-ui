@@ -6,11 +6,12 @@ import Notification from "./component/Notification"
 import ConfirmationDialog from "./component/ConfirmationDialog"
 import AppDrawer from "./component/AppDrawer"
 import PageUnderMaintenance from "./component/PageUnderMaintenance"
+import ErrorBoundaryNoRouter from "./component/ErrorBoundaryNoRouter"
 // exports
 
 export {
     AppContextProvider, useAppContext, AppActionType,
-    ErrorBoundary, 
+    ErrorBoundary, ErrorBoundaryNoRouter,
     Notification, 
     Loading, 
     ConfirmationDialog,
